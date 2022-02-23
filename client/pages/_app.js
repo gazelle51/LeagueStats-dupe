@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import '../styles/globals.css';
+import '../public/css/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,7 +13,9 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Component {...pageProps} />
+      <div className='bg-img'>
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
