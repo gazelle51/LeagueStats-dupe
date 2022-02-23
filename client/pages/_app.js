@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='bg-img'>
+      <div className='bg-aurelion-sol bg-cover bg-center bg-no-repeat h-screen w-screen'>
         <Component {...pageProps} />
       </div>
     </>
