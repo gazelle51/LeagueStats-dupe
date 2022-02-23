@@ -1,4 +1,5 @@
 import { Navbar } from '../../../components/Navbar';
+import { Footer } from '../../../components/Footer';
 
 import { useRouter } from 'next/router';
 
@@ -12,6 +13,7 @@ export default function Summoner() {
       <div>
         {server}, {summonerName}
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { FooterText } from '../components/FooterText';
 
 export default function Home() {
   return (
@@ -14,6 +15,10 @@ export default function Home() {
           <a>OCE/Iooch</a>
         </Link>
       </div>
+
+      <footer className='absolute w-screen bottom-0 pb-4 leading-tight text-center text-blue-300 text-xxs'>
+        <FooterText />
+      </footer>
     </div>
   );
 }
